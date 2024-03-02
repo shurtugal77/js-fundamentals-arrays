@@ -8,7 +8,7 @@ const countries = ['Bolivia', 'Jordan', 'Greenland']
 const fruits = ['Apple', 'Orange', 'Pear']
 
 // 1. Add Fred to the names array
-names.push("Fred")
+names.push('Fred')
 console.log(names)
 
 // 2. Add 4 to the end of the numbers array
@@ -16,7 +16,7 @@ numbers.push(4)
 console.log(numbers)
 
 // 3. Add Rio to the start of the cities array
-cities.unshift("Rio")
+cities.unshift('Rio')
 console.log(cities)
 
 // 4. Remove the first colour from the colours array
@@ -35,7 +35,6 @@ console.log(countries)
 const pear = fruits.pop()
 console.log(fruits)
 console.log(pear)
-
 
 // Do not change the code below
 module.exports = {
