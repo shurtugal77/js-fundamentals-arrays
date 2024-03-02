@@ -7,7 +7,7 @@ const fourthTeacher = teachers[3]
 console.log(fourthTeacher)
 
 // 2. Replace the fifth teacher in the teachers array with Patrick
-teachers[4] = "Patrick"
+teachers[4] = 'Patrick'
 console.log(teachers)
 
 // 3. Remove the last teacher from the array and save them in lastTeacher below
@@ -21,21 +21,21 @@ console.log(firstTeacher)
 console.log(teachers)
 
 // 5. Add a teacher named Vanessa to the end of the teachers array
-teachers.push("Vanessa")
+teachers.push('Vanessa')
 console.log(teachers)
 
 // 6. Remove Ed from the teachers array
 // Für Leute mit Gehirn
-const whereIsEd = teachers.findIndex((element) => element === "Ed")
+const whereIsEd = teachers.findIndex((element) => element === 'Ed')
 teachers.splice(whereIsEd, 1)
 console.log(teachers)
 
 // Für Leute mit bissl weniger Gehirn
-//teachers.shift()
-//console.log(teachers)
+// teachers.shift()
+// console.log(teachers)
 
 // 7. Add a teacher named Sarah to the beginning of the teachers array
-teachers.unshift("Sarah")
+teachers.unshift('Sarah')
 console.log(teachers)
 
 // Don't change the code below this line
